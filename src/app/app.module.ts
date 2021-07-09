@@ -15,6 +15,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { CommonModule } from '@angular/common';
+import { SearchComponent } from './pages/search/search.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { CommonModule } from '@angular/common';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
